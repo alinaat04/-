@@ -1,0 +1,180 @@
+body {
+  background-color: rgba(199, 175, 247, 0.47);
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 0;
+}
+
+body header h1 {
+  font-family: 'Montserrat',sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 73px;
+  color: #551A8B;
+}
+
+body header nav {
+  padding-top: 30px;
+}
+
+body header nav a {
+  padding-right: 30px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  font-family: sans-serif;
+}
+
+body header nav a:hover {
+  color: #fff;
+}
+
+body .information {
+  background-color: #f5e8ff;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .information .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .information .text-content h1 {
+  color: #551A8B;
+  font-family: sans-serif;
+  padding-bottom: 100px;
+}
+
+body .information .text-content p {
+  width: 70%;
+  padding-top: 100px;
+  font-size: 25px;
+  color: #551A8B;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body .information .text-content .line {
+  width: 70%;
+  border-bottom: 2px solid #551A8B;
+}
+
+body .education {
+  background-color: #f5e8ff;
+  width: 80%;
+  margin: 70px auto;
+  border-radius: 30px;
+  padding: 50px 100px;
+}
+
+body .education h2 {
+  text-align: center;
+}
+
+body .education h3, body .education p, body .education h2 {
+  color: #551A8B;
+  font-family: sans-serif;
+}
+
+body .education h3 {
+  padding-top: 30px;
+}
+
+body .education .line {
+  width: 80%;
+  border-bottom: 2px solid #551A8B;
+  margin: 30px auto;
+}
+
+body .skills {
+  background-color: #f5e8ff;
+  width: 80%;
+  margin: 70px auto;
+  border-radius: 30px;
+  padding: 50px 90px;
+}
+
+body .skills h2 {
+  text-align: center;
+  color: #551A8B;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+}
+
+body .skills .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .skills .content .content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px 0;
+}
+
+body .skills .content .content-item p {
+  color: #551A8B;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 0 0 10px;
+}
+
+body footer .line {
+  margin: 0 auto;
+  width: 80%;
+  border-bottom: 2px solid #551A8B;
+}
+
+body footer h2, body footer h3 {
+  text-align: center;
+  color: #551A8B;
+  font-family: sans-serif;
+  padding: 60px;
+}
+
+body footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body footer .content p {
+  color: #551A8B;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
